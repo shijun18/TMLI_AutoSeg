@@ -1,0 +1,14 @@
+h5py
+monai
+einops
+tqdm
+timm
+segmentation-models-pytorch
+torchsummary
+thop
+scipy
+scikit-image
+tensorboardX
+transforms3d
+opencv-python
+sklearn

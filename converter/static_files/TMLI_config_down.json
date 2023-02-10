@@ -1,0 +1,35 @@
+{
+    "dicom_path":"/staff/shijun/dataset/TMLI/raw_data",
+    "npy_path":"/staff/shijun/dataset/Med_Seg/TMLI/down_npy_data",
+    "metadata_path":"/staff/shijun/torch_projects/TMLI/converter/meta_data/tmli_metadata_down.csv",
+    "annotation_path":"/staff/shijun/torch_projects/TMLI/converter/meta_data/tmli_annotation_down.csv",
+    "annotation_num":1,
+    "annotation_list":[
+        "Extremities_x"
+    ],
+    "target_format":{
+        "size":[512,512],
+        "thickness":5.0,
+        "WL":600,
+        "WW":1600,
+        "scale":[-200,1400],
+        "pixel_spacing":1.0
+    },
+    "2d_data":{
+        "train_path":"/staff/shijun/dataset/Med_Seg/TMLI/down_2d_data",
+        "test_path":"/staff/shijun/dataset/Med_Seg/TMLI/down_2d_test_data",
+        "crop":0,
+        "shape":[512,512],
+        "train_csv_path":"/staff/shijun/torch_projects/TMLI/converter/static_files/down_tmli.csv",
+        "test_csv_path":"/staff/shijun/torch_projects/TMLI/converter/static_files/down_tmli_test.csv"
+    },
+    "3d_data":{
+        "train_path":"/staff/shijun/dataset/Med_Seg/TMLI/3d_data_down",
+        "crop":48,
+        "shape":[128,256,256]
+    },
+    "scale":{
+        "Extremities_x":[-200,1400],
+        "All":[-200,1400]
+    }
+}
